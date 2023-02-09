@@ -17,34 +17,51 @@ states. There are 4 variables for each city in total, with 4 describing the crim
 This dataset is from the US Arrests Kaggle challenge (https://www.kaggle.com/datasets/kurohana/usarrets). A description of the data is given as: “This data set contains statistics, in arrests per 100,000 residents, for assault, murder, and rape in each of the 50 US states in 1973. Also given is the percent of the population living in urban areas.”
 
 ## Getting Started
-To run this project, install library:
-#Import libraries
-import numpy as np
 
-import pandas as pd
+To run this project, import libraries:
 
-import seaborn as sns
-
-import matplotlib.pyplot as plt
-
-from sklearn.preprocessing import StandardScaler
-
-from sklearn.decomposition import PCA
+- import numpy as np
+- import pandas as pd
+- import seaborn as sns
+- import matplotlib.pyplot as plt
+- from sklearn.preprocessing import StandardScaler
+- from sklearn.decomposition import PCA
 
 ## UsArrests - machine learning
 
 To generate an in-depth PCA report of the dataset UsArrests.csv downloaded from kaggle, and to explore and interpret the outcomes of any analyses.
 
-Exploring the dataset
-Apply PCA
-Cluster Analysis
-Hierarchial clustering
-K- means clustering
-
-
 Next images are just some examples of the results in the data exploration.
 
+- **_Exploring the dataset_**
+
 Crimes correlation *Note that the crimes are not correlated with population living in urban areas.
+
+  ![image](https://user-images.githubusercontent.com/91984156/217934990-48eff24a-bf24-4f32-846c-d852311c1a11.png)
+
+- **_Apply PCA_**
+
+Cumulative variance plot
+
+![image](https://user-images.githubusercontent.com/91984156/217935679-3a6a1a02-f8de-4a11-a521-743cab8dbcce.png)
+
+Scree plot
+
+![image](https://user-images.githubusercontent.com/91984156/217935853-1d2554fb-98dc-459a-874b-a4926a94c49a.png)
+
+- **_Cluster Analysis_**
+
+Hierarchial clustering
+
+![image](https://user-images.githubusercontent.com/91984156/217936191-081bc7b8-04c2-4254-a041-67cc81f02d56.png)
+
+K- means clustering
+
+![image](https://user-images.githubusercontent.com/91984156/217936337-46809b04-5e69-4a6e-a398-d1cf322300c2.png)
+
+
+
+
 ## Installing
 Installation instructions.
 
