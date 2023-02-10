@@ -63,11 +63,8 @@ K- means clustering
 
 
 ## Installing
-Installation instructions.
 
-## Usage
-A step by step series of examples that tell you how to get a development env running.
+Use VBcode to run the file
 
-## Contributing
-Contributors names.
-```
+Import all libraries in the getting started section to run visualisations
+
