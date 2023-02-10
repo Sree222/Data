@@ -10,8 +10,7 @@ states. There are 4 variables for each city in total, with 4 describing the crim
 - [Getting Started](https://github.com/Sree222/finalCapstone/new/main?readme=1#getting-started)
 - [UsArrests - machine learning](https://github.com/Sree222/finalCapstone/new/main?readme=1#usarrests---machine-learning)
 - [Installing](#installing)
-- [Usage](#usage)
-- [Contributing](#contributing)
+
 
 ## About
 This dataset is from the US Arrests Kaggle challenge (https://www.kaggle.com/datasets/kurohana/usarrets). A description of the data is given as: “This data set contains statistics, in arrests per 100,000 residents, for assault, murder, and rape in each of the 50 US states in 1973. Also given is the percent of the population living in urban areas.”
